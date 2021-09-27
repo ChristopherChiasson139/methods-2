@@ -15,10 +15,12 @@ namespace methods_2
         
         static void ShowHUD()
         {
-            Console.WriteLine("-------------");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            
+            Console.WriteLine("------HUD-------");
             Console.WriteLine("Health = " + health);
             Console.WriteLine("Score = " + score);
-            Console.WriteLine("-------------");
+            Console.WriteLine("----------------");
         }
 
         static void Pont(int pont)
@@ -33,6 +35,10 @@ namespace methods_2
         
         static void Main(string[] args)
         {
+
+
+            
+
             Console.WriteLine("Name: Mario");
 
 
