@@ -33,7 +33,7 @@ namespace methods_2
             health = 100;
 
             ShowHUD();
-            TakeDamage(5);
+            TakeDamage(10);
             ShowHUD();
 
             Console.ReadKey(true);
